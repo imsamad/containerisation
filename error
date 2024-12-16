@@ -1,0 +1,6 @@
+container.c: In function ‘setup_go_runtime’:
+container.c:70:40: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   70 |     char *const args[] = {"/bin/bash", go_install_script, NULL};
+      |                                        ^~~~~~~~~~~~~~~~~
+/usr/bin/ld: cannot find 1: No such file or directory
+collect2: error: ld returned 1 exit status
